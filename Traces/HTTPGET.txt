@@ -1,0 +1,2179 @@
+No.     Time        Source                Destination           Protocol Length Info
+     15 8.206162    192.168.2.121         192.168.2.253         TCP      74     48339 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1080548 TSecr=0 WS=128
+
+Frame 15: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.810056000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.810056000 seconds
+    [Time delta from previous captured frame: 8.199431000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 8.206162000 seconds]
+    Frame Number: 15
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x7454 (29780)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3fa1 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 0, Len: 0
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgment: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port http]
+                [Message: Connection establish request (SYN): server port http]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+    Window size value: 29200
+    [Calculated window size: 29200]
+    Checksum: 0x4ce7 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+        Maximum segment size: 1460 bytes
+            Kind: MSS size (2)
+            Length: 4
+            MSS Value: 1460
+        TCP SACK Permitted Option: True
+            Kind: SACK Permission (4)
+            Length: 2
+        Timestamps: TSval 1080548, TSecr 0
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1080548
+            Timestamp echo reply: 0
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Window scale: 7 (multiply by 128)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 7
+            [Multiplier: 128]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  00 3c 74 54 40 00 40 06 3f a1 c0 a8 02 79 c0 a8   .<tT@.@.?....y..
+0020  02 fd bc d3 00 50 bf 79 08 b0 00 00 00 00 a0 02   .....P.y........
+0030  72 10 4c e7 00 00 02 04 05 b4 04 02 08 0a 00 10   r.L.............
+0040  7c e4 00 00 00 00 01 03 03 07                     |.........
+
+No.     Time        Source                Destination           Protocol Length Info
+     18 8.210350    192.168.2.253         192.168.2.121         TCP      74     http > 48339 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=2842754454 TSecr=1080548 WS=128
+
+Frame 18: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.814244000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.814244000 seconds
+    [Time delta from previous captured frame: 0.002820000 seconds]
+    [Time delta from previous displayed frame: 0.004188000 seconds]
+    [Time since reference or first frame: 8.210350000 seconds]
+    Frame Number: 18
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71), Dst: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+    Destination: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.253 (192.168.2.253), Dst: 192.168.2.121 (192.168.2.121)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0xb3f5 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.253 (192.168.2.253)
+    Destination: 192.168.2.121 (192.168.2.121)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: 48339 (48339), Seq: 0, Ack: 1, Len: 0
+    Source port: http (80)
+    Destination port: 48339 (48339)
+    [Stream index: 5]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header length: 40 bytes
+    Flags: 0x012 (SYN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish acknowledge (SYN+ACK): server port http]
+                [Message: Connection establish acknowledge (SYN+ACK): server port http]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+    Window size value: 14480
+    [Calculated window size: 14480]
+    Checksum: 0xb878 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+        Maximum segment size: 1460 bytes
+            Kind: MSS size (2)
+            Length: 4
+            MSS Value: 1460
+        TCP SACK Permitted Option: True
+            Kind: SACK Permission (4)
+            Length: 2
+        Timestamps: TSval 2842754454, TSecr 1080548
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 2842754454
+            Timestamp echo reply: 1080548
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Window scale: 7 (multiply by 128)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 7
+            [Multiplier: 128]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 15]
+        [The RTT to ACK the segment was: 0.004188000 seconds]
+
+0000  ac 7b a1 92 58 6a 00 0d 9d 4f a2 71 08 00 45 00   .{..Xj...O.q..E.
+0010  00 3c 00 00 40 00 40 06 b3 f5 c0 a8 02 fd c0 a8   .<..@.@.........
+0020  02 79 00 50 bc d3 8b fa 9a db bf 79 08 b1 a0 12   .y.P.......y....
+0030  38 90 b8 78 00 00 02 04 05 b4 04 02 08 0a a9 70   8..x...........p
+0040  fd 96 00 10 7c e4 01 03 03 07                     ....|.....
+
+No.     Time        Source                Destination           Protocol Length Info
+     19 8.210395    192.168.2.121         192.168.2.253         TCP      66     48339 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=1080549 TSecr=2842754454
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.814289000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.814289000 seconds
+    [Time delta from previous captured frame: 0.000045000 seconds]
+    [Time delta from previous displayed frame: 0.000045000 seconds]
+    [Time since reference or first frame: 8.210395000 seconds]
+    Frame Number: 19
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 52
+    Identification: 0x7455 (29781)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3fa8 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1eef [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1080549, TSecr 2842754454
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1080549
+            Timestamp echo reply: 2842754454
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 18]
+        [The RTT to ACK the segment was: 0.000045000 seconds]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  00 34 74 55 40 00 40 06 3f a8 c0 a8 02 79 c0 a8   .4tU@.@.?....y..
+0020  02 fd bc d3 00 50 bf 79 08 b1 8b fa 9a dc 80 10   .....P.y........
+0030  00 e5 1e ef 00 00 01 01 08 0a 00 10 7c e5 a9 70   ............|..p
+0040  fd 96                                             ..
+
+No.     Time        Source                Destination           Protocol Length Info
+     24 8.214716    192.168.2.121         192.168.2.253         HTTP     435    GET /blll HTTP/1.1 
+
+Frame 24: 435 bytes on wire (3480 bits), 435 bytes captured (3480 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.818610000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.818610000 seconds
+    [Time delta from previous captured frame: 0.004259000 seconds]
+    [Time delta from previous displayed frame: 0.004321000 seconds]
+    [Time since reference or first frame: 8.214716000 seconds]
+    Frame Number: 24
+    Frame Length: 435 bytes (3480 bits)
+    Capture Length: 435 bytes (3480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 421
+    Identification: 0x7456 (29782)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3e36 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 1, Ack: 1, Len: 369
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 370    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x3870 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1080550, TSecr 2842754454
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1080550
+            Timestamp echo reply: 2842754454
+    [SEQ/ACK analysis]
+        [Bytes in flight: 369]
+Hypertext Transfer Protocol
+    GET /blll HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /blll HTTP/1.1\r\n]
+            [Message: GET /blll HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /blll
+        Request Version: HTTP/1.1
+    Host: blackbox\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36\r\n
+    Accept-Encoding: gzip,deflate,sdch\r\n
+    Accept-Language: en-US,en;q=0.8,ne;q=0.6\r\n
+    \r\n
+    [Full request URI: http://blackbox/blll]
+    [HTTP request 1/4]
+    [Response in frame: 26]
+    [Next request in frame: 32]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  01 a5 74 56 40 00 40 06 3e 36 c0 a8 02 79 c0 a8   ..tV@.@.>6...y..
+0020  02 fd bc d3 00 50 bf 79 08 b1 8b fa 9a dc 80 18   .....P.y........
+0030  00 e5 38 70 00 00 01 01 08 0a 00 10 7c e6 a9 70   ..8p........|..p
+0040  fd 96 47 45 54 20 2f 62 6c 6c 6c 20 48 54 54 50   ..GET /blll HTTP
+0050  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 6c 61 63   /1.1..Host: blac
+0060  6b 62 6f 78 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e   kbox..Connection
+0070  3a 20 6b 65 65 70 2d 61 6c 69 76 65 0d 0a 43 61   : keep-alive..Ca
+0080  63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61 78   che-Control: max
+0090  2d 61 67 65 3d 30 0d 0a 41 63 63 65 70 74 3a 20   -age=0..Accept: 
+00a0  74 65 78 74 2f 68 74 6d 6c 2c 61 70 70 6c 69 63   text/html,applic
+00b0  61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c 2c   ation/xhtml+xml,
+00c0  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c 3b   application/xml;
+00d0  71 3d 30 2e 39 2c 69 6d 61 67 65 2f 77 65 62 70   q=0.9,image/webp
+00e0  2c 2a 2f 2a 3b 71 3d 30 2e 38 0d 0a 55 73 65 72   ,*/*;q=0.8..User
+00f0  2d 41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61 2f   -Agent: Mozilla/
+0100  35 2e 30 20 28 58 31 31 3b 20 4c 69 6e 75 78 20   5.0 (X11; Linux 
+0110  78 38 36 5f 36 34 29 20 41 70 70 6c 65 57 65 62   x86_64) AppleWeb
+0120  4b 69 74 2f 35 33 37 2e 33 36 20 28 4b 48 54 4d   Kit/537.36 (KHTM
+0130  4c 2c 20 6c 69 6b 65 20 47 65 63 6b 6f 29 20 43   L, like Gecko) C
+0140  68 72 6f 6d 65 2f 33 36 2e 30 2e 31 39 38 35 2e   hrome/36.0.1985.
+0150  31 34 33 20 53 61 66 61 72 69 2f 35 33 37 2e 33   143 Safari/537.3
+0160  36 0d 0a 41 63 63 65 70 74 2d 45 6e 63 6f 64 69   6..Accept-Encodi
+0170  6e 67 3a 20 67 7a 69 70 2c 64 65 66 6c 61 74 65   ng: gzip,deflate
+0180  2c 73 64 63 68 0d 0a 41 63 63 65 70 74 2d 4c 61   ,sdch..Accept-La
+0190  6e 67 75 61 67 65 3a 20 65 6e 2d 55 53 2c 65 6e   nguage: en-US,en
+01a0  3b 71 3d 30 2e 38 2c 6e 65 3b 71 3d 30 2e 36 0d   ;q=0.8,ne;q=0.6.
+01b0  0a 0d 0a                                          ...
+
+No.     Time        Source                Destination           Protocol Length Info
+     25 8.223390    192.168.2.253         192.168.2.121         TCP      66     http > 48339 [ACK] Seq=1 Ack=370 Win=15616 Len=0 TSval=2842754457 TSecr=1080550
+
+Frame 25: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.827284000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.827284000 seconds
+    [Time delta from previous captured frame: 0.008674000 seconds]
+    [Time delta from previous displayed frame: 0.008674000 seconds]
+    [Time since reference or first frame: 8.223390000 seconds]
+    Frame Number: 25
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71), Dst: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+    Destination: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.253 (192.168.2.253), Dst: 192.168.2.121 (192.168.2.121)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 52
+    Identification: 0x6745 (26437)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x4cb8 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.253 (192.168.2.253)
+    Destination: 192.168.2.121 (192.168.2.121)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: 48339 (48339), Seq: 1, Ack: 370, Len: 0
+    Source port: http (80)
+    Destination port: 48339 (48339)
+    [Stream index: 5]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 370    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 122
+    [Calculated window size: 15616]
+    [Window size scaling factor: 128]
+    Checksum: 0x1de5 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 2842754457, TSecr 1080550
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 2842754457
+            Timestamp echo reply: 1080550
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 24]
+        [The RTT to ACK the segment was: 0.008674000 seconds]
+
+0000  ac 7b a1 92 58 6a 00 0d 9d 4f a2 71 08 00 45 00   .{..Xj...O.q..E.
+0010  00 34 67 45 40 00 40 06 4c b8 c0 a8 02 fd c0 a8   .4gE@.@.L.......
+0020  02 79 00 50 bc d3 8b fa 9a dc bf 79 0a 22 80 10   .y.P.......y."..
+0030  00 7a 1d e5 00 00 01 01 08 0a a9 70 fd 99 00 10   .z.........p....
+0040  7c e6                                             |.
+
+No.     Time        Source                Destination           Protocol Length Info
+     26 8.224900    192.168.2.253         192.168.2.121         HTTP     562    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 26: 562 bytes on wire (4496 bits), 562 bytes captured (4496 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.828794000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.828794000 seconds
+    [Time delta from previous captured frame: 0.001510000 seconds]
+    [Time delta from previous displayed frame: 0.001510000 seconds]
+    [Time since reference or first frame: 8.224900000 seconds]
+    Frame Number: 26
+    Frame Length: 562 bytes (4496 bits)
+    Capture Length: 562 bytes (4496 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http:data-text-lines]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71), Dst: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+    Destination: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.253 (192.168.2.253), Dst: 192.168.2.121 (192.168.2.121)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 548
+    Identification: 0x6746 (26438)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x4ac7 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.253 (192.168.2.253)
+    Destination: 192.168.2.121 (192.168.2.121)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: 48339 (48339), Seq: 1, Ack: 370, Len: 496
+    Source port: http (80)
+    Destination port: 48339 (48339)
+    [Stream index: 5]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 497    (relative sequence number)]
+    Acknowledgment number: 370    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 122
+    [Calculated window size: 15616]
+    [Window size scaling factor: 128]
+    Checksum: 0x389d [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 2842754457, TSecr 1080550
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 2842754457
+            Timestamp echo reply: 1080550
+    [SEQ/ACK analysis]
+        [Bytes in flight: 496]
+Hypertext Transfer Protocol
+    HTTP/1.1 404 Not Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 404 Not Found\r\n]
+            [Message: HTTP/1.1 404 Not Found\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Version: HTTP/1.1
+        Status Code: 404
+        Response Phrase: Not Found
+    Date: Wed, 03 Sep 2014 21:14:08 GMT\r\n
+    Server: Apache/2.2.22 (Ubuntu)\r\n
+    Vary: Accept-Encoding\r\n
+    Content-Encoding: gzip\r\n
+    Content-Length: 232\r\n
+        [Content length: 232]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 1/4]
+    [Time since request: 0.010184000 seconds]
+    [Request in frame: 24]
+    [Next request in frame: 32]
+    [Next response in frame: 33]
+    Content-encoded entity body (gzip): 232 bytes -> 276 bytes
+Line-based text data: text/html
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>404 Not Found</title>\n
+    </head><body>\n
+    <h1>Not Found</h1>\n
+    <p>The requested URL /blll was not found on this server.</p>\n
+    <hr>\n
+    <address>Apache/2.2.22 (Ubuntu) Server at blackbox Port 80</address>\n
+    </body></html>\n
+
+Frame (562 bytes):
+0000  ac 7b a1 92 58 6a 00 0d 9d 4f a2 71 08 00 45 00   .{..Xj...O.q..E.
+0010  02 24 67 46 40 00 40 06 4a c7 c0 a8 02 fd c0 a8   .$gF@.@.J.......
+0020  02 79 00 50 bc d3 8b fa 9a dc bf 79 0a 22 80 18   .y.P.......y."..
+0030  00 7a 38 9d 00 00 01 01 08 0a a9 70 fd 99 00 10   .z8........p....
+0040  7c e6 48 54 54 50 2f 31 2e 31 20 34 30 34 20 4e   |.HTTP/1.1 404 N
+0050  6f 74 20 46 6f 75 6e 64 0d 0a 44 61 74 65 3a 20   ot Found..Date: 
+0060  57 65 64 2c 20 30 33 20 53 65 70 20 32 30 31 34   Wed, 03 Sep 2014
+0070  20 32 31 3a 31 34 3a 30 38 20 47 4d 54 0d 0a 53    21:14:08 GMT..S
+0080  65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 2e   erver: Apache/2.
+0090  32 2e 32 32 20 28 55 62 75 6e 74 75 29 0d 0a 56   2.22 (Ubuntu)..V
+00a0  61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 6f   ary: Accept-Enco
+00b0  64 69 6e 67 0d 0a 43 6f 6e 74 65 6e 74 2d 45 6e   ding..Content-En
+00c0  63 6f 64 69 6e 67 3a 20 67 7a 69 70 0d 0a 43 6f   coding: gzip..Co
+00d0  6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 32 33   ntent-Length: 23
+00e0  32 0d 0a 4b 65 65 70 2d 41 6c 69 76 65 3a 20 74   2..Keep-Alive: t
+00f0  69 6d 65 6f 75 74 3d 35 2c 20 6d 61 78 3d 31 30   imeout=5, max=10
+0100  30 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b   0..Connection: K
+0110  65 65 70 2d 41 6c 69 76 65 0d 0a 43 6f 6e 74 65   eep-Alive..Conte
+0120  6e 74 2d 54 79 70 65 3a 20 74 65 78 74 2f 68 74   nt-Type: text/ht
+0130  6d 6c 3b 20 63 68 61 72 73 65 74 3d 69 73 6f 2d   ml; charset=iso-
+0140  38 38 35 39 2d 31 0d 0a 0d 0a 1f 8b 08 00 00 00   8859-1..........
+0150  00 00 00 03 4d 8f 4f 6b c3 30 0c c5 ef f9 14 5a   ....M.Ok.0.....Z
+0160  4f db 61 51 1a 7a d8 c1 18 ba 26 a5 85 ac 0b 9b   O.aQ.z....&.....
+0170  73 e8 d1 ae 35 5c e6 c5 99 ed ec cf b7 9f 93 32   s...5\.........2
+0180  28 02 c1 93 7e 4f 3c b1 9b ea 79 23 8e 6d 0d 3b   (...~O<...y#.m.;
+0190  f1 d4 40 db 3d 36 fb 0d 2c ee 11 f7 b5 d8 22 56   ..@.=6..,....."V
+01a0  a2 ba 6c ca bc 40 ac 0f 0b 9e 31 13 3f 2c 67 86   ..l..@....1.?,g.
+01b0  a4 4e 22 9e a3 25 be 2a 56 70 70 11 b6 6e ec 35   .N"..%.*Vpp..n.5
+01c0  c3 cb 30 63 38 43 4c 39 fd 3b f9 96 fc 8a 49 2a   ..0c8CL9.;....I*
+01d0  63 03 17 86 c0 d3 e7 48 21 92 86 ee a5 01 54 d6   c......H!.....T.
+01e0  5a f8 96 01 fa 44 bf 4d 34 b8 1e a2 39 07 08 e4   Z....D.M4...9...
+01f0  bf c8 e7 0c 87 e9 9e 4f 4d 6a ed 29 04 be 1e e4   .......OMj.)....
+0200  c9 10 96 79 aa 12 6e 3b 35 f6 71 bc 83 d7 d9 00   ...y..n;5.q.....
+0210  32 82 b2 f2 f4 ae dc 0f b4 ce 47 78 28 18 fe 5b   2.........Gx(..[
+0220  53 ce 39 61 ca 34 7d 96 fd 01 e3 27 4c a3 14 01   S.9a.4}....'L...
+0230  00 00                                             ..
+Uncompressed entity body (276 bytes):
+0000  3c 21 44 4f 43 54 59 50 45 20 48 54 4d 4c 20 50   <!DOCTYPE HTML P
+0010  55 42 4c 49 43 20 22 2d 2f 2f 49 45 54 46 2f 2f   UBLIC "-//IETF//
+0020  44 54 44 20 48 54 4d 4c 20 32 2e 30 2f 2f 45 4e   DTD HTML 2.0//EN
+0030  22 3e 0a 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 0a   ">.<html><head>.
+0040  3c 74 69 74 6c 65 3e 34 30 34 20 4e 6f 74 20 46   <title>404 Not F
+0050  6f 75 6e 64 3c 2f 74 69 74 6c 65 3e 0a 3c 2f 68   ound</title>.</h
+0060  65 61 64 3e 3c 62 6f 64 79 3e 0a 3c 68 31 3e 4e   ead><body>.<h1>N
+0070  6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e 0a 3c 70   ot Found</h1>.<p
+0080  3e 54 68 65 20 72 65 71 75 65 73 74 65 64 20 55   >The requested U
+0090  52 4c 20 2f 62 6c 6c 6c 20 77 61 73 20 6e 6f 74   RL /blll was not
+00a0  20 66 6f 75 6e 64 20 6f 6e 20 74 68 69 73 20 73    found on this s
+00b0  65 72 76 65 72 2e 3c 2f 70 3e 0a 3c 68 72 3e 0a   erver.</p>.<hr>.
+00c0  3c 61 64 64 72 65 73 73 3e 41 70 61 63 68 65 2f   <address>Apache/
+00d0  32 2e 32 2e 32 32 20 28 55 62 75 6e 74 75 29 20   2.2.22 (Ubuntu) 
+00e0  53 65 72 76 65 72 20 61 74 20 62 6c 61 63 6b 62   Server at blackb
+00f0  6f 78 20 50 6f 72 74 20 38 30 3c 2f 61 64 64 72   ox Port 80</addr
+0100  65 73 73 3e 0a 3c 2f 62 6f 64 79 3e 3c 2f 68 74   ess>.</body></ht
+0110  6d 6c 3e 0a                                       ml>.
+
+No.     Time        Source                Destination           Protocol Length Info
+     27 8.224913    192.168.2.121         192.168.2.253         TCP      66     48339 > http [ACK] Seq=370 Ack=497 Win=30336 Len=0 TSval=1080553 TSecr=2842754457
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:13.828807000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779093.828807000 seconds
+    [Time delta from previous captured frame: 0.000013000 seconds]
+    [Time delta from previous displayed frame: 0.000013000 seconds]
+    [Time since reference or first frame: 8.224913000 seconds]
+    Frame Number: 27
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 52
+    Identification: 0x7457 (29783)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3fa6 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 370, Ack: 497, Len: 0
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 370    (relative sequence number)
+    Acknowledgment number: 497    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x1b7f [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1080553, TSecr 2842754457
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1080553
+            Timestamp echo reply: 2842754457
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 26]
+        [The RTT to ACK the segment was: 0.000013000 seconds]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  00 34 74 57 40 00 40 06 3f a6 c0 a8 02 79 c0 a8   .4tW@.@.?....y..
+0020  02 fd bc d3 00 50 bf 79 0a 22 8b fa 9c cc 80 10   .....P.y."......
+0030  00 ed 1b 7f 00 00 01 01 08 0a 00 10 7c e9 a9 70   ............|..p
+0040  fd 99                                             ..
+
+No.     Time        Source                Destination           Protocol Length Info
+     32 11.271194   192.168.2.121         192.168.2.253         HTTP     435    GET /blll HTTP/1.1 
+
+Frame 32: 435 bytes on wire (3480 bits), 435 bytes captured (3480 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:16.875088000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779096.875088000 seconds
+    [Time delta from previous captured frame: 1.862670000 seconds]
+    [Time delta from previous displayed frame: 3.046281000 seconds]
+    [Time since reference or first frame: 11.271194000 seconds]
+    Frame Number: 32
+    Frame Length: 435 bytes (3480 bits)
+    Capture Length: 435 bytes (3480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 421
+    Identification: 0x7458 (29784)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3e34 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 370, Ack: 497, Len: 369
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 370    (relative sequence number)
+    [Next sequence number: 739    (relative sequence number)]
+    Acknowledgment number: 497    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x3208 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1081314, TSecr 2842754457
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1081314
+            Timestamp echo reply: 2842754457
+    [SEQ/ACK analysis]
+        [Bytes in flight: 369]
+Hypertext Transfer Protocol
+    GET /blll HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /blll HTTP/1.1\r\n]
+            [Message: GET /blll HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /blll
+        Request Version: HTTP/1.1
+    Host: blackbox\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36\r\n
+    Accept-Encoding: gzip,deflate,sdch\r\n
+    Accept-Language: en-US,en;q=0.8,ne;q=0.6\r\n
+    \r\n
+    [Full request URI: http://blackbox/blll]
+    [HTTP request 2/4]
+    [Prev request in frame: 24]
+    [Response in frame: 33]
+    [Next request in frame: 35]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  01 a5 74 58 40 00 40 06 3e 34 c0 a8 02 79 c0 a8   ..tX@.@.>4...y..
+0020  02 fd bc d3 00 50 bf 79 0a 22 8b fa 9c cc 80 18   .....P.y."......
+0030  00 ed 32 08 00 00 01 01 08 0a 00 10 7f e2 a9 70   ..2............p
+0040  fd 99 47 45 54 20 2f 62 6c 6c 6c 20 48 54 54 50   ..GET /blll HTTP
+0050  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 6c 61 63   /1.1..Host: blac
+0060  6b 62 6f 78 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e   kbox..Connection
+0070  3a 20 6b 65 65 70 2d 61 6c 69 76 65 0d 0a 43 61   : keep-alive..Ca
+0080  63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61 78   che-Control: max
+0090  2d 61 67 65 3d 30 0d 0a 41 63 63 65 70 74 3a 20   -age=0..Accept: 
+00a0  74 65 78 74 2f 68 74 6d 6c 2c 61 70 70 6c 69 63   text/html,applic
+00b0  61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c 2c   ation/xhtml+xml,
+00c0  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c 3b   application/xml;
+00d0  71 3d 30 2e 39 2c 69 6d 61 67 65 2f 77 65 62 70   q=0.9,image/webp
+00e0  2c 2a 2f 2a 3b 71 3d 30 2e 38 0d 0a 55 73 65 72   ,*/*;q=0.8..User
+00f0  2d 41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61 2f   -Agent: Mozilla/
+0100  35 2e 30 20 28 58 31 31 3b 20 4c 69 6e 75 78 20   5.0 (X11; Linux 
+0110  78 38 36 5f 36 34 29 20 41 70 70 6c 65 57 65 62   x86_64) AppleWeb
+0120  4b 69 74 2f 35 33 37 2e 33 36 20 28 4b 48 54 4d   Kit/537.36 (KHTM
+0130  4c 2c 20 6c 69 6b 65 20 47 65 63 6b 6f 29 20 43   L, like Gecko) C
+0140  68 72 6f 6d 65 2f 33 36 2e 30 2e 31 39 38 35 2e   hrome/36.0.1985.
+0150  31 34 33 20 53 61 66 61 72 69 2f 35 33 37 2e 33   143 Safari/537.3
+0160  36 0d 0a 41 63 63 65 70 74 2d 45 6e 63 6f 64 69   6..Accept-Encodi
+0170  6e 67 3a 20 67 7a 69 70 2c 64 65 66 6c 61 74 65   ng: gzip,deflate
+0180  2c 73 64 63 68 0d 0a 41 63 63 65 70 74 2d 4c 61   ,sdch..Accept-La
+0190  6e 67 75 61 67 65 3a 20 65 6e 2d 55 53 2c 65 6e   nguage: en-US,en
+01a0  3b 71 3d 30 2e 38 2c 6e 65 3b 71 3d 30 2e 36 0d   ;q=0.8,ne;q=0.6.
+01b0  0a 0d 0a                                          ...
+
+No.     Time        Source                Destination           Protocol Length Info
+     33 11.281229   192.168.2.253         192.168.2.121         HTTP     561    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 33: 561 bytes on wire (4488 bits), 561 bytes captured (4488 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:16.885123000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779096.885123000 seconds
+    [Time delta from previous captured frame: 0.010035000 seconds]
+    [Time delta from previous displayed frame: 0.010035000 seconds]
+    [Time since reference or first frame: 11.281229000 seconds]
+    Frame Number: 33
+    Frame Length: 561 bytes (4488 bits)
+    Capture Length: 561 bytes (4488 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http:data-text-lines]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71), Dst: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+    Destination: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.253 (192.168.2.253), Dst: 192.168.2.121 (192.168.2.121)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 547
+    Identification: 0x6747 (26439)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x4ac7 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.253 (192.168.2.253)
+    Destination: 192.168.2.121 (192.168.2.121)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: 48339 (48339), Seq: 497, Ack: 739, Len: 495
+    Source port: http (80)
+    Destination port: 48339 (48339)
+    [Stream index: 5]
+    Sequence number: 497    (relative sequence number)
+    [Next sequence number: 992    (relative sequence number)]
+    Acknowledgment number: 739    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 130
+    [Calculated window size: 16640]
+    [Window size scaling factor: 128]
+    Checksum: 0x7a18 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 2842755220, TSecr 1081314
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 2842755220
+            Timestamp echo reply: 1081314
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 32]
+        [The RTT to ACK the segment was: 0.010035000 seconds]
+        [Bytes in flight: 495]
+Hypertext Transfer Protocol
+    HTTP/1.1 404 Not Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 404 Not Found\r\n]
+            [Message: HTTP/1.1 404 Not Found\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Version: HTTP/1.1
+        Status Code: 404
+        Response Phrase: Not Found
+    Date: Wed, 03 Sep 2014 21:14:11 GMT\r\n
+    Server: Apache/2.2.22 (Ubuntu)\r\n
+    Vary: Accept-Encoding\r\n
+    Content-Encoding: gzip\r\n
+    Content-Length: 232\r\n
+        [Content length: 232]
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 2/4]
+    [Time since request: 0.010035000 seconds]
+    [Prev request in frame: 24]
+    [Prev response in frame: 26]
+    [Request in frame: 32]
+    [Next request in frame: 35]
+    [Next response in frame: 36]
+    Content-encoded entity body (gzip): 232 bytes -> 276 bytes
+Line-based text data: text/html
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>404 Not Found</title>\n
+    </head><body>\n
+    <h1>Not Found</h1>\n
+    <p>The requested URL /blll was not found on this server.</p>\n
+    <hr>\n
+    <address>Apache/2.2.22 (Ubuntu) Server at blackbox Port 80</address>\n
+    </body></html>\n
+
+Frame (561 bytes):
+0000  ac 7b a1 92 58 6a 00 0d 9d 4f a2 71 08 00 45 00   .{..Xj...O.q..E.
+0010  02 23 67 47 40 00 40 06 4a c7 c0 a8 02 fd c0 a8   .#gG@.@.J.......
+0020  02 79 00 50 bc d3 8b fa 9c cc bf 79 0b 93 80 18   .y.P.......y....
+0030  00 82 7a 18 00 00 01 01 08 0a a9 71 00 94 00 10   ..z........q....
+0040  7f e2 48 54 54 50 2f 31 2e 31 20 34 30 34 20 4e   ..HTTP/1.1 404 N
+0050  6f 74 20 46 6f 75 6e 64 0d 0a 44 61 74 65 3a 20   ot Found..Date: 
+0060  57 65 64 2c 20 30 33 20 53 65 70 20 32 30 31 34   Wed, 03 Sep 2014
+0070  20 32 31 3a 31 34 3a 31 31 20 47 4d 54 0d 0a 53    21:14:11 GMT..S
+0080  65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 2e   erver: Apache/2.
+0090  32 2e 32 32 20 28 55 62 75 6e 74 75 29 0d 0a 56   2.22 (Ubuntu)..V
+00a0  61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 6f   ary: Accept-Enco
+00b0  64 69 6e 67 0d 0a 43 6f 6e 74 65 6e 74 2d 45 6e   ding..Content-En
+00c0  63 6f 64 69 6e 67 3a 20 67 7a 69 70 0d 0a 43 6f   coding: gzip..Co
+00d0  6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 32 33   ntent-Length: 23
+00e0  32 0d 0a 4b 65 65 70 2d 41 6c 69 76 65 3a 20 74   2..Keep-Alive: t
+00f0  69 6d 65 6f 75 74 3d 35 2c 20 6d 61 78 3d 39 39   imeout=5, max=99
+0100  0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65   ..Connection: Ke
+0110  65 70 2d 41 6c 69 76 65 0d 0a 43 6f 6e 74 65 6e   ep-Alive..Conten
+0120  74 2d 54 79 70 65 3a 20 74 65 78 74 2f 68 74 6d   t-Type: text/htm
+0130  6c 3b 20 63 68 61 72 73 65 74 3d 69 73 6f 2d 38   l; charset=iso-8
+0140  38 35 39 2d 31 0d 0a 0d 0a 1f 8b 08 00 00 00 00   859-1...........
+0150  00 00 03 4d 8f 4f 6b c3 30 0c c5 ef f9 14 5a 4f   ...M.Ok.0.....ZO
+0160  db 61 51 1a 7a d8 c1 18 ba 26 a5 85 ac 0b 9b 73   .aQ.z....&.....s
+0170  e8 d1 ae 35 5c e6 c5 99 ed ec cf b7 9f 93 32 28   ...5\.........2(
+0180  02 c1 93 7e 4f 3c b1 9b ea 79 23 8e 6d 0d 3b f1   ...~O<...y#.m.;.
+0190  d4 40 db 3d 36 fb 0d 2c ee 11 f7 b5 d8 22 56 a2   .@.=6..,....."V.
+01a0  ba 6c ca bc 40 ac 0f 0b 9e 31 13 3f 2c 67 86 a4   .l..@....1.?,g..
+01b0  4e 22 9e a3 25 be 2a 56 70 70 11 b6 6e ec 35 c3   N"..%.*Vpp..n.5.
+01c0  cb 30 63 38 43 4c 39 fd 3b f9 96 fc 8a 49 2a 63   .0c8CL9.;....I*c
+01d0  03 17 86 c0 d3 e7 48 21 92 86 ee a5 01 54 d6 5a   ......H!.....T.Z
+01e0  f8 96 01 fa 44 bf 4d 34 b8 1e a2 39 07 08 e4 bf   ....D.M4...9....
+01f0  c8 e7 0c 87 e9 9e 4f 4d 6a ed 29 04 be 1e e4 c9   ......OMj.).....
+0200  10 96 79 aa 12 6e 3b 35 f6 71 bc 83 d7 d9 00 32   ..y..n;5.q.....2
+0210  82 b2 f2 f4 ae dc 0f b4 ce 47 78 28 18 fe 5b 53   .........Gx(..[S
+0220  ce 39 61 ca 34 7d 96 fd 01 e3 27 4c a3 14 01 00   .9a.4}....'L....
+0230  00                                                .
+Uncompressed entity body (276 bytes):
+0000  3c 21 44 4f 43 54 59 50 45 20 48 54 4d 4c 20 50   <!DOCTYPE HTML P
+0010  55 42 4c 49 43 20 22 2d 2f 2f 49 45 54 46 2f 2f   UBLIC "-//IETF//
+0020  44 54 44 20 48 54 4d 4c 20 32 2e 30 2f 2f 45 4e   DTD HTML 2.0//EN
+0030  22 3e 0a 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 0a   ">.<html><head>.
+0040  3c 74 69 74 6c 65 3e 34 30 34 20 4e 6f 74 20 46   <title>404 Not F
+0050  6f 75 6e 64 3c 2f 74 69 74 6c 65 3e 0a 3c 2f 68   ound</title>.</h
+0060  65 61 64 3e 3c 62 6f 64 79 3e 0a 3c 68 31 3e 4e   ead><body>.<h1>N
+0070  6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e 0a 3c 70   ot Found</h1>.<p
+0080  3e 54 68 65 20 72 65 71 75 65 73 74 65 64 20 55   >The requested U
+0090  52 4c 20 2f 62 6c 6c 6c 20 77 61 73 20 6e 6f 74   RL /blll was not
+00a0  20 66 6f 75 6e 64 20 6f 6e 20 74 68 69 73 20 73    found on this s
+00b0  65 72 76 65 72 2e 3c 2f 70 3e 0a 3c 68 72 3e 0a   erver.</p>.<hr>.
+00c0  3c 61 64 64 72 65 73 73 3e 41 70 61 63 68 65 2f   <address>Apache/
+00d0  32 2e 32 2e 32 32 20 28 55 62 75 6e 74 75 29 20   2.2.22 (Ubuntu) 
+00e0  53 65 72 76 65 72 20 61 74 20 62 6c 61 63 6b 62   Server at blackb
+00f0  6f 78 20 50 6f 72 74 20 38 30 3c 2f 61 64 64 72   ox Port 80</addr
+0100  65 73 73 3e 0a 3c 2f 62 6f 64 79 3e 3c 2f 68 74   ess>.</body></ht
+0110  6d 6c 3e 0a                                       ml>.
+
+No.     Time        Source                Destination           Protocol Length Info
+     34 11.281261   192.168.2.121         192.168.2.253         TCP      66     48339 > http [ACK] Seq=739 Ack=992 Win=31360 Len=0 TSval=1081317 TSecr=2842755220
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:16.885155000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779096.885155000 seconds
+    [Time delta from previous captured frame: 0.000032000 seconds]
+    [Time delta from previous displayed frame: 0.000032000 seconds]
+    [Time since reference or first frame: 11.281261000 seconds]
+    Frame Number: 34
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 52
+    Identification: 0x7459 (29785)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3fa4 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 739, Ack: 992, Len: 0
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 739    (relative sequence number)
+    Acknowledgment number: 992    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0x1220 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1081317, TSecr 2842755220
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1081317
+            Timestamp echo reply: 2842755220
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 33]
+        [The RTT to ACK the segment was: 0.000032000 seconds]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  00 34 74 59 40 00 40 06 3f a4 c0 a8 02 79 c0 a8   .4tY@.@.?....y..
+0020  02 fd bc d3 00 50 bf 79 0b 93 8b fa 9e bb 80 10   .....P.y........
+0030  00 f5 12 20 00 00 01 01 08 0a 00 10 7f e5 a9 71   ... ...........q
+0040  00 94                                             ..
+
+No.     Time        Source                Destination           Protocol Length Info
+     35 14.542145   192.168.2.121         192.168.2.253         HTTP     435    GET /blll HTTP/1.1 
+
+Frame 35: 435 bytes on wire (3480 bits), 435 bytes captured (3480 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:20.146039000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779100.146039000 seconds
+    [Time delta from previous captured frame: 3.260884000 seconds]
+    [Time delta from previous displayed frame: 3.260884000 seconds]
+    [Time since reference or first frame: 14.542145000 seconds]
+    Frame Number: 35
+    Frame Length: 435 bytes (3480 bits)
+    Capture Length: 435 bytes (3480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 421
+    Identification: 0x745a (29786)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3e32 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 739, Ack: 992, Len: 369
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 739    (relative sequence number)
+    [Next sequence number: 1108    (relative sequence number)]
+    Acknowledgment number: 992    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0x2873 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1082132, TSecr 2842755220
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1082132
+            Timestamp echo reply: 2842755220
+    [SEQ/ACK analysis]
+        [Bytes in flight: 369]
+Hypertext Transfer Protocol
+    GET /blll HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /blll HTTP/1.1\r\n]
+            [Message: GET /blll HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /blll
+        Request Version: HTTP/1.1
+    Host: blackbox\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36\r\n
+    Accept-Encoding: gzip,deflate,sdch\r\n
+    Accept-Language: en-US,en;q=0.8,ne;q=0.6\r\n
+    \r\n
+    [Full request URI: http://blackbox/blll]
+    [HTTP request 3/4]
+    [Prev request in frame: 32]
+    [Response in frame: 36]
+    [Next request in frame: 38]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  01 a5 74 5a 40 00 40 06 3e 32 c0 a8 02 79 c0 a8   ..tZ@.@.>2...y..
+0020  02 fd bc d3 00 50 bf 79 0b 93 8b fa 9e bb 80 18   .....P.y........
+0030  00 f5 28 73 00 00 01 01 08 0a 00 10 83 14 a9 71   ..(s...........q
+0040  00 94 47 45 54 20 2f 62 6c 6c 6c 20 48 54 54 50   ..GET /blll HTTP
+0050  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 6c 61 63   /1.1..Host: blac
+0060  6b 62 6f 78 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e   kbox..Connection
+0070  3a 20 6b 65 65 70 2d 61 6c 69 76 65 0d 0a 43 61   : keep-alive..Ca
+0080  63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61 78   che-Control: max
+0090  2d 61 67 65 3d 30 0d 0a 41 63 63 65 70 74 3a 20   -age=0..Accept: 
+00a0  74 65 78 74 2f 68 74 6d 6c 2c 61 70 70 6c 69 63   text/html,applic
+00b0  61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c 2c   ation/xhtml+xml,
+00c0  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c 3b   application/xml;
+00d0  71 3d 30 2e 39 2c 69 6d 61 67 65 2f 77 65 62 70   q=0.9,image/webp
+00e0  2c 2a 2f 2a 3b 71 3d 30 2e 38 0d 0a 55 73 65 72   ,*/*;q=0.8..User
+00f0  2d 41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61 2f   -Agent: Mozilla/
+0100  35 2e 30 20 28 58 31 31 3b 20 4c 69 6e 75 78 20   5.0 (X11; Linux 
+0110  78 38 36 5f 36 34 29 20 41 70 70 6c 65 57 65 62   x86_64) AppleWeb
+0120  4b 69 74 2f 35 33 37 2e 33 36 20 28 4b 48 54 4d   Kit/537.36 (KHTM
+0130  4c 2c 20 6c 69 6b 65 20 47 65 63 6b 6f 29 20 43   L, like Gecko) C
+0140  68 72 6f 6d 65 2f 33 36 2e 30 2e 31 39 38 35 2e   hrome/36.0.1985.
+0150  31 34 33 20 53 61 66 61 72 69 2f 35 33 37 2e 33   143 Safari/537.3
+0160  36 0d 0a 41 63 63 65 70 74 2d 45 6e 63 6f 64 69   6..Accept-Encodi
+0170  6e 67 3a 20 67 7a 69 70 2c 64 65 66 6c 61 74 65   ng: gzip,deflate
+0180  2c 73 64 63 68 0d 0a 41 63 63 65 70 74 2d 4c 61   ,sdch..Accept-La
+0190  6e 67 75 61 67 65 3a 20 65 6e 2d 55 53 2c 65 6e   nguage: en-US,en
+01a0  3b 71 3d 30 2e 38 2c 6e 65 3b 71 3d 30 2e 36 0d   ;q=0.8,ne;q=0.6.
+01b0  0a 0d 0a                                          ...
+
+No.     Time        Source                Destination           Protocol Length Info
+     36 14.547463   192.168.2.253         192.168.2.121         HTTP     561    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 36: 561 bytes on wire (4488 bits), 561 bytes captured (4488 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:20.151357000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779100.151357000 seconds
+    [Time delta from previous captured frame: 0.005318000 seconds]
+    [Time delta from previous displayed frame: 0.005318000 seconds]
+    [Time since reference or first frame: 14.547463000 seconds]
+    Frame Number: 36
+    Frame Length: 561 bytes (4488 bits)
+    Capture Length: 561 bytes (4488 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http:data-text-lines]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71), Dst: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+    Destination: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.253 (192.168.2.253), Dst: 192.168.2.121 (192.168.2.121)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 547
+    Identification: 0x6748 (26440)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x4ac6 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.253 (192.168.2.253)
+    Destination: 192.168.2.121 (192.168.2.121)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: 48339 (48339), Seq: 992, Ack: 1108, Len: 495
+    Source port: http (80)
+    Destination port: 48339 (48339)
+    [Stream index: 5]
+    Sequence number: 992    (relative sequence number)
+    [Next sequence number: 1487    (relative sequence number)]
+    Acknowledgment number: 1108    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 139
+    [Calculated window size: 17792]
+    [Window size scaling factor: 128]
+    Checksum: 0x6d4c [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 2842756038, TSecr 1082132
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 2842756038
+            Timestamp echo reply: 1082132
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 35]
+        [The RTT to ACK the segment was: 0.005318000 seconds]
+        [Bytes in flight: 495]
+Hypertext Transfer Protocol
+    HTTP/1.1 404 Not Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 404 Not Found\r\n]
+            [Message: HTTP/1.1 404 Not Found\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Version: HTTP/1.1
+        Status Code: 404
+        Response Phrase: Not Found
+    Date: Wed, 03 Sep 2014 21:14:14 GMT\r\n
+    Server: Apache/2.2.22 (Ubuntu)\r\n
+    Vary: Accept-Encoding\r\n
+    Content-Encoding: gzip\r\n
+    Content-Length: 232\r\n
+        [Content length: 232]
+    Keep-Alive: timeout=5, max=98\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 3/4]
+    [Time since request: 0.005318000 seconds]
+    [Prev request in frame: 32]
+    [Prev response in frame: 33]
+    [Request in frame: 35]
+    [Next request in frame: 38]
+    [Next response in frame: 39]
+    Content-encoded entity body (gzip): 232 bytes -> 276 bytes
+Line-based text data: text/html
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>404 Not Found</title>\n
+    </head><body>\n
+    <h1>Not Found</h1>\n
+    <p>The requested URL /blll was not found on this server.</p>\n
+    <hr>\n
+    <address>Apache/2.2.22 (Ubuntu) Server at blackbox Port 80</address>\n
+    </body></html>\n
+
+Frame (561 bytes):
+0000  ac 7b a1 92 58 6a 00 0d 9d 4f a2 71 08 00 45 00   .{..Xj...O.q..E.
+0010  02 23 67 48 40 00 40 06 4a c6 c0 a8 02 fd c0 a8   .#gH@.@.J.......
+0020  02 79 00 50 bc d3 8b fa 9e bb bf 79 0d 04 80 18   .y.P.......y....
+0030  00 8b 6d 4c 00 00 01 01 08 0a a9 71 03 c6 00 10   ..mL.......q....
+0040  83 14 48 54 54 50 2f 31 2e 31 20 34 30 34 20 4e   ..HTTP/1.1 404 N
+0050  6f 74 20 46 6f 75 6e 64 0d 0a 44 61 74 65 3a 20   ot Found..Date: 
+0060  57 65 64 2c 20 30 33 20 53 65 70 20 32 30 31 34   Wed, 03 Sep 2014
+0070  20 32 31 3a 31 34 3a 31 34 20 47 4d 54 0d 0a 53    21:14:14 GMT..S
+0080  65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 2e   erver: Apache/2.
+0090  32 2e 32 32 20 28 55 62 75 6e 74 75 29 0d 0a 56   2.22 (Ubuntu)..V
+00a0  61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 6f   ary: Accept-Enco
+00b0  64 69 6e 67 0d 0a 43 6f 6e 74 65 6e 74 2d 45 6e   ding..Content-En
+00c0  63 6f 64 69 6e 67 3a 20 67 7a 69 70 0d 0a 43 6f   coding: gzip..Co
+00d0  6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 32 33   ntent-Length: 23
+00e0  32 0d 0a 4b 65 65 70 2d 41 6c 69 76 65 3a 20 74   2..Keep-Alive: t
+00f0  69 6d 65 6f 75 74 3d 35 2c 20 6d 61 78 3d 39 38   imeout=5, max=98
+0100  0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65   ..Connection: Ke
+0110  65 70 2d 41 6c 69 76 65 0d 0a 43 6f 6e 74 65 6e   ep-Alive..Conten
+0120  74 2d 54 79 70 65 3a 20 74 65 78 74 2f 68 74 6d   t-Type: text/htm
+0130  6c 3b 20 63 68 61 72 73 65 74 3d 69 73 6f 2d 38   l; charset=iso-8
+0140  38 35 39 2d 31 0d 0a 0d 0a 1f 8b 08 00 00 00 00   859-1...........
+0150  00 00 03 4d 8f 4f 6b c3 30 0c c5 ef f9 14 5a 4f   ...M.Ok.0.....ZO
+0160  db 61 51 1a 7a d8 c1 18 ba 26 a5 85 ac 0b 9b 73   .aQ.z....&.....s
+0170  e8 d1 ae 35 5c e6 c5 99 ed ec cf b7 9f 93 32 28   ...5\.........2(
+0180  02 c1 93 7e 4f 3c b1 9b ea 79 23 8e 6d 0d 3b f1   ...~O<...y#.m.;.
+0190  d4 40 db 3d 36 fb 0d 2c ee 11 f7 b5 d8 22 56 a2   .@.=6..,....."V.
+01a0  ba 6c ca bc 40 ac 0f 0b 9e 31 13 3f 2c 67 86 a4   .l..@....1.?,g..
+01b0  4e 22 9e a3 25 be 2a 56 70 70 11 b6 6e ec 35 c3   N"..%.*Vpp..n.5.
+01c0  cb 30 63 38 43 4c 39 fd 3b f9 96 fc 8a 49 2a 63   .0c8CL9.;....I*c
+01d0  03 17 86 c0 d3 e7 48 21 92 86 ee a5 01 54 d6 5a   ......H!.....T.Z
+01e0  f8 96 01 fa 44 bf 4d 34 b8 1e a2 39 07 08 e4 bf   ....D.M4...9....
+01f0  c8 e7 0c 87 e9 9e 4f 4d 6a ed 29 04 be 1e e4 c9   ......OMj.).....
+0200  10 96 79 aa 12 6e 3b 35 f6 71 bc 83 d7 d9 00 32   ..y..n;5.q.....2
+0210  82 b2 f2 f4 ae dc 0f b4 ce 47 78 28 18 fe 5b 53   .........Gx(..[S
+0220  ce 39 61 ca 34 7d 96 fd 01 e3 27 4c a3 14 01 00   .9a.4}....'L....
+0230  00                                                .
+Uncompressed entity body (276 bytes):
+0000  3c 21 44 4f 43 54 59 50 45 20 48 54 4d 4c 20 50   <!DOCTYPE HTML P
+0010  55 42 4c 49 43 20 22 2d 2f 2f 49 45 54 46 2f 2f   UBLIC "-//IETF//
+0020  44 54 44 20 48 54 4d 4c 20 32 2e 30 2f 2f 45 4e   DTD HTML 2.0//EN
+0030  22 3e 0a 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 0a   ">.<html><head>.
+0040  3c 74 69 74 6c 65 3e 34 30 34 20 4e 6f 74 20 46   <title>404 Not F
+0050  6f 75 6e 64 3c 2f 74 69 74 6c 65 3e 0a 3c 2f 68   ound</title>.</h
+0060  65 61 64 3e 3c 62 6f 64 79 3e 0a 3c 68 31 3e 4e   ead><body>.<h1>N
+0070  6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e 0a 3c 70   ot Found</h1>.<p
+0080  3e 54 68 65 20 72 65 71 75 65 73 74 65 64 20 55   >The requested U
+0090  52 4c 20 2f 62 6c 6c 6c 20 77 61 73 20 6e 6f 74   RL /blll was not
+00a0  20 66 6f 75 6e 64 20 6f 6e 20 74 68 69 73 20 73    found on this s
+00b0  65 72 76 65 72 2e 3c 2f 70 3e 0a 3c 68 72 3e 0a   erver.</p>.<hr>.
+00c0  3c 61 64 64 72 65 73 73 3e 41 70 61 63 68 65 2f   <address>Apache/
+00d0  32 2e 32 2e 32 32 20 28 55 62 75 6e 74 75 29 20   2.2.22 (Ubuntu) 
+00e0  53 65 72 76 65 72 20 61 74 20 62 6c 61 63 6b 62   Server at blackb
+00f0  6f 78 20 50 6f 72 74 20 38 30 3c 2f 61 64 64 72   ox Port 80</addr
+0100  65 73 73 3e 0a 3c 2f 62 6f 64 79 3e 3c 2f 68 74   ess>.</body></ht
+0110  6d 6c 3e 0a                                       ml>.
+
+No.     Time        Source                Destination           Protocol Length Info
+     37 14.547505   192.168.2.121         192.168.2.253         TCP      66     48339 > http [ACK] Seq=1108 Ack=1487 Win=32512 Len=0 TSval=1082134 TSecr=2842756038
+
+Frame 37: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:20.151399000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779100.151399000 seconds
+    [Time delta from previous captured frame: 0.000042000 seconds]
+    [Time delta from previous displayed frame: 0.000042000 seconds]
+    [Time since reference or first frame: 14.547505000 seconds]
+    Frame Number: 37
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 52
+    Identification: 0x745b (29787)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3fa2 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 1108, Ack: 1487, Len: 0
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 1108    (relative sequence number)
+    Acknowledgment number: 1487    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 254
+    [Calculated window size: 32512]
+    [Window size scaling factor: 128]
+    Checksum: 0x0854 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1082134, TSecr 2842756038
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1082134
+            Timestamp echo reply: 2842756038
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 36]
+        [The RTT to ACK the segment was: 0.000042000 seconds]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  00 34 74 5b 40 00 40 06 3f a2 c0 a8 02 79 c0 a8   .4t[@.@.?....y..
+0020  02 fd bc d3 00 50 bf 79 0d 04 8b fa a0 aa 80 10   .....P.y........
+0030  00 fe 08 54 00 00 01 01 08 0a 00 10 83 16 a9 71   ...T...........q
+0040  03 c6                                             ..
+
+No.     Time        Source                Destination           Protocol Length Info
+     38 18.147079   192.168.2.121         192.168.2.253         HTTP     435    GET /blll HTTP/1.1 
+
+Frame 38: 435 bytes on wire (3480 bits), 435 bytes captured (3480 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:23.750973000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779103.750973000 seconds
+    [Time delta from previous captured frame: 3.599574000 seconds]
+    [Time delta from previous displayed frame: 3.599574000 seconds]
+    [Time since reference or first frame: 18.147079000 seconds]
+    Frame Number: 38
+    Frame Length: 435 bytes (3480 bits)
+    Capture Length: 435 bytes (3480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 421
+    Identification: 0x745c (29788)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3e30 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 1108, Ack: 1487, Len: 369
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 1108    (relative sequence number)
+    [Next sequence number: 1477    (relative sequence number)]
+    Acknowledgment number: 1487    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 254
+    [Calculated window size: 32512]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e53 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1083033, TSecr 2842756038
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1083033
+            Timestamp echo reply: 2842756038
+    [SEQ/ACK analysis]
+        [Bytes in flight: 369]
+Hypertext Transfer Protocol
+    GET /blll HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /blll HTTP/1.1\r\n]
+            [Message: GET /blll HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /blll
+        Request Version: HTTP/1.1
+    Host: blackbox\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36\r\n
+    Accept-Encoding: gzip,deflate,sdch\r\n
+    Accept-Language: en-US,en;q=0.8,ne;q=0.6\r\n
+    \r\n
+    [Full request URI: http://blackbox/blll]
+    [HTTP request 4/4]
+    [Prev request in frame: 35]
+    [Response in frame: 39]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  01 a5 74 5c 40 00 40 06 3e 30 c0 a8 02 79 c0 a8   ..t\@.@.>0...y..
+0020  02 fd bc d3 00 50 bf 79 0d 04 8b fa a0 aa 80 18   .....P.y........
+0030  00 fe 1e 53 00 00 01 01 08 0a 00 10 86 99 a9 71   ...S...........q
+0040  03 c6 47 45 54 20 2f 62 6c 6c 6c 20 48 54 54 50   ..GET /blll HTTP
+0050  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 6c 61 63   /1.1..Host: blac
+0060  6b 62 6f 78 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e   kbox..Connection
+0070  3a 20 6b 65 65 70 2d 61 6c 69 76 65 0d 0a 43 61   : keep-alive..Ca
+0080  63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61 78   che-Control: max
+0090  2d 61 67 65 3d 30 0d 0a 41 63 63 65 70 74 3a 20   -age=0..Accept: 
+00a0  74 65 78 74 2f 68 74 6d 6c 2c 61 70 70 6c 69 63   text/html,applic
+00b0  61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c 2c   ation/xhtml+xml,
+00c0  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c 3b   application/xml;
+00d0  71 3d 30 2e 39 2c 69 6d 61 67 65 2f 77 65 62 70   q=0.9,image/webp
+00e0  2c 2a 2f 2a 3b 71 3d 30 2e 38 0d 0a 55 73 65 72   ,*/*;q=0.8..User
+00f0  2d 41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61 2f   -Agent: Mozilla/
+0100  35 2e 30 20 28 58 31 31 3b 20 4c 69 6e 75 78 20   5.0 (X11; Linux 
+0110  78 38 36 5f 36 34 29 20 41 70 70 6c 65 57 65 62   x86_64) AppleWeb
+0120  4b 69 74 2f 35 33 37 2e 33 36 20 28 4b 48 54 4d   Kit/537.36 (KHTM
+0130  4c 2c 20 6c 69 6b 65 20 47 65 63 6b 6f 29 20 43   L, like Gecko) C
+0140  68 72 6f 6d 65 2f 33 36 2e 30 2e 31 39 38 35 2e   hrome/36.0.1985.
+0150  31 34 33 20 53 61 66 61 72 69 2f 35 33 37 2e 33   143 Safari/537.3
+0160  36 0d 0a 41 63 63 65 70 74 2d 45 6e 63 6f 64 69   6..Accept-Encodi
+0170  6e 67 3a 20 67 7a 69 70 2c 64 65 66 6c 61 74 65   ng: gzip,deflate
+0180  2c 73 64 63 68 0d 0a 41 63 63 65 70 74 2d 4c 61   ,sdch..Accept-La
+0190  6e 67 75 61 67 65 3a 20 65 6e 2d 55 53 2c 65 6e   nguage: en-US,en
+01a0  3b 71 3d 30 2e 38 2c 6e 65 3b 71 3d 30 2e 36 0d   ;q=0.8,ne;q=0.6.
+01b0  0a 0d 0a                                          ...
+
+No.     Time        Source                Destination           Protocol Length Info
+     39 18.153544   192.168.2.253         192.168.2.121         HTTP     561    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 39: 561 bytes on wire (4488 bits), 561 bytes captured (4488 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:23.757438000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779103.757438000 seconds
+    [Time delta from previous captured frame: 0.006465000 seconds]
+    [Time delta from previous displayed frame: 0.006465000 seconds]
+    [Time since reference or first frame: 18.153544000 seconds]
+    Frame Number: 39
+    Frame Length: 561 bytes (4488 bits)
+    Capture Length: 561 bytes (4488 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http:data-text-lines]
+    [Number of per-protocol-data: 1]
+    [Hypertext Transfer Protocol, key 0]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71), Dst: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+    Destination: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.253 (192.168.2.253), Dst: 192.168.2.121 (192.168.2.121)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 547
+    Identification: 0x6749 (26441)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x4ac5 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.253 (192.168.2.253)
+    Destination: 192.168.2.121 (192.168.2.121)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: 48339 (48339), Seq: 1487, Ack: 1477, Len: 495
+    Source port: http (80)
+    Destination port: 48339 (48339)
+    [Stream index: 5]
+    Sequence number: 1487    (relative sequence number)
+    [Next sequence number: 1982    (relative sequence number)]
+    Acknowledgment number: 1477    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 147
+    [Calculated window size: 18816]
+    [Window size scaling factor: 128]
+    Checksum: 0x5edb [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 2842756939, TSecr 1083033
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 2842756939
+            Timestamp echo reply: 1083033
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 38]
+        [The RTT to ACK the segment was: 0.006465000 seconds]
+        [Bytes in flight: 495]
+Hypertext Transfer Protocol
+    HTTP/1.1 404 Not Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 404 Not Found\r\n]
+            [Message: HTTP/1.1 404 Not Found\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Version: HTTP/1.1
+        Status Code: 404
+        Response Phrase: Not Found
+    Date: Wed, 03 Sep 2014 21:14:18 GMT\r\n
+    Server: Apache/2.2.22 (Ubuntu)\r\n
+    Vary: Accept-Encoding\r\n
+    Content-Encoding: gzip\r\n
+    Content-Length: 232\r\n
+        [Content length: 232]
+    Keep-Alive: timeout=5, max=97\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 4/4]
+    [Time since request: 0.006465000 seconds]
+    [Prev request in frame: 35]
+    [Prev response in frame: 36]
+    [Request in frame: 38]
+    Content-encoded entity body (gzip): 232 bytes -> 276 bytes
+Line-based text data: text/html
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>404 Not Found</title>\n
+    </head><body>\n
+    <h1>Not Found</h1>\n
+    <p>The requested URL /blll was not found on this server.</p>\n
+    <hr>\n
+    <address>Apache/2.2.22 (Ubuntu) Server at blackbox Port 80</address>\n
+    </body></html>\n
+
+Frame (561 bytes):
+0000  ac 7b a1 92 58 6a 00 0d 9d 4f a2 71 08 00 45 00   .{..Xj...O.q..E.
+0010  02 23 67 49 40 00 40 06 4a c5 c0 a8 02 fd c0 a8   .#gI@.@.J.......
+0020  02 79 00 50 bc d3 8b fa a0 aa bf 79 0e 75 80 18   .y.P.......y.u..
+0030  00 93 5e db 00 00 01 01 08 0a a9 71 07 4b 00 10   ..^........q.K..
+0040  86 99 48 54 54 50 2f 31 2e 31 20 34 30 34 20 4e   ..HTTP/1.1 404 N
+0050  6f 74 20 46 6f 75 6e 64 0d 0a 44 61 74 65 3a 20   ot Found..Date: 
+0060  57 65 64 2c 20 30 33 20 53 65 70 20 32 30 31 34   Wed, 03 Sep 2014
+0070  20 32 31 3a 31 34 3a 31 38 20 47 4d 54 0d 0a 53    21:14:18 GMT..S
+0080  65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 2e   erver: Apache/2.
+0090  32 2e 32 32 20 28 55 62 75 6e 74 75 29 0d 0a 56   2.22 (Ubuntu)..V
+00a0  61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 6f   ary: Accept-Enco
+00b0  64 69 6e 67 0d 0a 43 6f 6e 74 65 6e 74 2d 45 6e   ding..Content-En
+00c0  63 6f 64 69 6e 67 3a 20 67 7a 69 70 0d 0a 43 6f   coding: gzip..Co
+00d0  6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 32 33   ntent-Length: 23
+00e0  32 0d 0a 4b 65 65 70 2d 41 6c 69 76 65 3a 20 74   2..Keep-Alive: t
+00f0  69 6d 65 6f 75 74 3d 35 2c 20 6d 61 78 3d 39 37   imeout=5, max=97
+0100  0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65   ..Connection: Ke
+0110  65 70 2d 41 6c 69 76 65 0d 0a 43 6f 6e 74 65 6e   ep-Alive..Conten
+0120  74 2d 54 79 70 65 3a 20 74 65 78 74 2f 68 74 6d   t-Type: text/htm
+0130  6c 3b 20 63 68 61 72 73 65 74 3d 69 73 6f 2d 38   l; charset=iso-8
+0140  38 35 39 2d 31 0d 0a 0d 0a 1f 8b 08 00 00 00 00   859-1...........
+0150  00 00 03 4d 8f 4f 6b c3 30 0c c5 ef f9 14 5a 4f   ...M.Ok.0.....ZO
+0160  db 61 51 1a 7a d8 c1 18 ba 26 a5 85 ac 0b 9b 73   .aQ.z....&.....s
+0170  e8 d1 ae 35 5c e6 c5 99 ed ec cf b7 9f 93 32 28   ...5\.........2(
+0180  02 c1 93 7e 4f 3c b1 9b ea 79 23 8e 6d 0d 3b f1   ...~O<...y#.m.;.
+0190  d4 40 db 3d 36 fb 0d 2c ee 11 f7 b5 d8 22 56 a2   .@.=6..,....."V.
+01a0  ba 6c ca bc 40 ac 0f 0b 9e 31 13 3f 2c 67 86 a4   .l..@....1.?,g..
+01b0  4e 22 9e a3 25 be 2a 56 70 70 11 b6 6e ec 35 c3   N"..%.*Vpp..n.5.
+01c0  cb 30 63 38 43 4c 39 fd 3b f9 96 fc 8a 49 2a 63   .0c8CL9.;....I*c
+01d0  03 17 86 c0 d3 e7 48 21 92 86 ee a5 01 54 d6 5a   ......H!.....T.Z
+01e0  f8 96 01 fa 44 bf 4d 34 b8 1e a2 39 07 08 e4 bf   ....D.M4...9....
+01f0  c8 e7 0c 87 e9 9e 4f 4d 6a ed 29 04 be 1e e4 c9   ......OMj.).....
+0200  10 96 79 aa 12 6e 3b 35 f6 71 bc 83 d7 d9 00 32   ..y..n;5.q.....2
+0210  82 b2 f2 f4 ae dc 0f b4 ce 47 78 28 18 fe 5b 53   .........Gx(..[S
+0220  ce 39 61 ca 34 7d 96 fd 01 e3 27 4c a3 14 01 00   .9a.4}....'L....
+0230  00                                                .
+Uncompressed entity body (276 bytes):
+0000  3c 21 44 4f 43 54 59 50 45 20 48 54 4d 4c 20 50   <!DOCTYPE HTML P
+0010  55 42 4c 49 43 20 22 2d 2f 2f 49 45 54 46 2f 2f   UBLIC "-//IETF//
+0020  44 54 44 20 48 54 4d 4c 20 32 2e 30 2f 2f 45 4e   DTD HTML 2.0//EN
+0030  22 3e 0a 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 0a   ">.<html><head>.
+0040  3c 74 69 74 6c 65 3e 34 30 34 20 4e 6f 74 20 46   <title>404 Not F
+0050  6f 75 6e 64 3c 2f 74 69 74 6c 65 3e 0a 3c 2f 68   ound</title>.</h
+0060  65 61 64 3e 3c 62 6f 64 79 3e 0a 3c 68 31 3e 4e   ead><body>.<h1>N
+0070  6f 74 20 46 6f 75 6e 64 3c 2f 68 31 3e 0a 3c 70   ot Found</h1>.<p
+0080  3e 54 68 65 20 72 65 71 75 65 73 74 65 64 20 55   >The requested U
+0090  52 4c 20 2f 62 6c 6c 6c 20 77 61 73 20 6e 6f 74   RL /blll was not
+00a0  20 66 6f 75 6e 64 20 6f 6e 20 74 68 69 73 20 73    found on this s
+00b0  65 72 76 65 72 2e 3c 2f 70 3e 0a 3c 68 72 3e 0a   erver.</p>.<hr>.
+00c0  3c 61 64 64 72 65 73 73 3e 41 70 61 63 68 65 2f   <address>Apache/
+00d0  32 2e 32 2e 32 32 20 28 55 62 75 6e 74 75 29 20   2.2.22 (Ubuntu) 
+00e0  53 65 72 76 65 72 20 61 74 20 62 6c 61 63 6b 62   Server at blackb
+00f0  6f 78 20 50 6f 72 74 20 38 30 3c 2f 61 64 64 72   ox Port 80</addr
+0100  65 73 73 3e 0a 3c 2f 62 6f 64 79 3e 3c 2f 68 74   ess>.</body></ht
+0110  6d 6c 3e 0a                                       ml>.
+
+No.     Time        Source                Destination           Protocol Length Info
+     40 18.153573   192.168.2.121         192.168.2.253         TCP      66     48339 > http [ACK] Seq=1477 Ack=1982 Win=33536 Len=0 TSval=1083035 TSecr=2842756939
+
+Frame 40: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  3, 2014 22:18:23.757467000 BST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1409779103.757467000 seconds
+    [Time delta from previous captured frame: 0.000029000 seconds]
+    [Time delta from previous displayed frame: 0.000029000 seconds]
+    [Time since reference or first frame: 18.153573000 seconds]
+    Frame Number: 40
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: IntelCor_92:58:6a (ac:7b:a1:92:58:6a), Dst: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+    Destination: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        Address: Hewlett-_4f:a2:71 (00:0d:9d:4f:a2:71)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        Address: IntelCor_92:58:6a (ac:7b:a1:92:58:6a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.2.121 (192.168.2.121), Dst: 192.168.2.253 (192.168.2.253)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 52
+    Identification: 0x745d (29789)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x3fa0 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.2.121 (192.168.2.121)
+    Destination: 192.168.2.253 (192.168.2.253)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 48339 (48339), Dst Port: http (80), Seq: 1477, Ack: 1982, Len: 0
+    Source port: 48339 (48339)
+    Destination port: http (80)
+    [Stream index: 5]
+    Sequence number: 1477    (relative sequence number)
+    Acknowledgment number: 1982    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 262
+    [Calculated window size: 33536]
+    [Window size scaling factor: 128]
+    Checksum: 0xfde1 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        Timestamps: TSval 1083035, TSecr 2842756939
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 1083035
+            Timestamp echo reply: 2842756939
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 39]
+        [The RTT to ACK the segment was: 0.000029000 seconds]
+
+0000  00 0d 9d 4f a2 71 ac 7b a1 92 58 6a 08 00 45 00   ...O.q.{..Xj..E.
+0010  00 34 74 5d 40 00 40 06 3f a0 c0 a8 02 79 c0 a8   .4t]@.@.?....y..
+0020  02 fd bc d3 00 50 bf 79 0e 75 8b fa a2 99 80 10   .....P.y.u......
+0030  01 06 fd e1 00 00 01 01 08 0a 00 10 86 9b a9 71   ...............q
+0040  07 4b                                             .K
